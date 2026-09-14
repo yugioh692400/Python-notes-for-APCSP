@@ -1,6 +1,6 @@
 # Python Notes
 9/14/2026
-# Setup
+# Setup (ignore this; I might have broken it)
 1. Download Microsoft VS code and download the python extensions
 <img width="2360" height="1323" alt="image" src="https://github.com/user-attachments/assets/4cb94725-930c-4276-9115-2a9483c4bfa6" />
 2. Make a new file and name it Main or something similar followed by a .py (sets the language to python)
