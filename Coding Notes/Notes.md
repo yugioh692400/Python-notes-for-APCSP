@@ -1,14 +1,14 @@
 # Python Notes
 9/14/2026
-# Setup (ignore this; I might have broken it)
+## Setup (ignore this; I might have broken it)
 1. Download Microsoft VS code and download the python extensions
 ![Alt Text](pics/Main install button.jpeg)
 2. Make a new file and name it Main or something similar followed by a .py (sets the language to python)
 <img width="2360" height="1311" alt="image" src="https://github.com/user-attachments/assets/e55f8826-9deb-461a-a074-c1b322f4f0f5" />
 
-# Stage 1 (Variables and Data types)
+## Stage 1 (Variables and Data types)
 
-## 1.1 Your First Code
+### 1.1 Your First Code
 This is the most simple line of code you will ever run
 ```python
 print(“Hello World”)
@@ -21,7 +21,7 @@ What each thing does
 
 `””` makes the letters into text so they don’t seem like variables
 
-## 1.2 Variables:
+### 1.2 Variables:
 - Variable - a name that represents a value in a program
     - Can be assigned a value using the "=" operator
     - Can be used to store and manipulate data in a program
@@ -41,7 +41,7 @@ _Age_of_10th_Grader = 15 # good
 
 /1 c * = 14 #bad
 ```
-## 1.3 Strings:
+### 1.3 Strings:
 - String - A sequence of characters enclosed in quotes
   - `””`used to define a string
   - `’’` used to define a string"
@@ -60,7 +60,7 @@ _Age_of_10th_Grader = 15 # good
     - `{}` is used as a placeholder for a value to be inserted into the string
     - Use f-strings (formatted string literals) to insert values into a string using curly braces and the variable name
 
-## 1.4 Lists:
+### 1.4 Lists:
 - List - Creates a list of items
   - Can contain items of different data types
   - `[]` is used to define a list
@@ -79,7 +79,7 @@ _Age_of_10th_Grader = 15 # good
     - `.sort()` is a method that sorts the items in a list in ascending order
     - `.reverse()` is a method that reverses the order of the items in a list
 
-## 1.5 Dictionaries:
+### 1.5 Dictionaries:
 - Dictionaries - A collection of key-value pairs
   - `{}` is used to define a dictionary
   - Key - a unique identifier for a value in the dictionary
@@ -90,7 +90,7 @@ _Age_of_10th_Grader = 15 # good
   - Add a string callback to the end of a dictionary to create a new key-value pair
   - Can use and data types as keys and values in a dictionary, but keys must be unique and immutable (cannot be changed)
 
-## 1.6 Tuples
+### 1.6 Tuples
 - Tuples - a collection of items that are ordered and immutable (cannot be changed)
   - `()` is used to define a tuple
   - Items in a tuple are ordered and can be accessed using their index
@@ -98,7 +98,7 @@ _Age_of_10th_Grader = 15 # good
   - Good for storing data that should not be changed, such as coordinates or dates
   - `.in()` is a keyword that checks if an item is in a tuple and returns True or False
 
-## 1.7 Sets
+### 1.7 Sets
 - Sets - a collection of unique items that are unordered and mutable (can be changed)
   - `{}` is used to define a set
   - `.set()` is a function that creates a set from a list or other iterable
@@ -108,7 +108,7 @@ _Age_of_10th_Grader = 15 # good
   - `.add()` is a method that adds an item to a set
   - `.remove()` is a method that removes an item from a set
 
-## 1.8 Boolean
+### 1.8 Boolean
 - Boolean - a data type that can have one of two values: True or False
   - `True` is represents a value of 1
   - `False` is represents a value of 0
@@ -116,8 +116,8 @@ _Age_of_10th_Grader = 15 # good
   - ”T” in `True` and ”F” in `False` must be capitalized, otherwise it will return an error
   - `none` is a special value that represents the absence of a value or a null value
 
-# Stage 2 (Operators)
-## 2.1 Mathematical Operators
+## Stage 2 (Operators)
+### 2.1 Mathematical Operators
 - Mathematical Operators - used to perform mathematical operations on numbers
     - `+` used to add 
     - `-` used to subtract
@@ -127,7 +127,7 @@ _Age_of_10th_Grader = 15 # good
     - `**` used for exponentiation (raises a number to a power)
     -  `//` used for floor division (returns the quotient of a division operation rounded down to the nearest whole number)
 
-## 2.2 Comparison Operators
+### 2.2 Comparison Operators
 - Comparison Operators - used to compare two values and return a boolean value (True or False)
     - `==` equal to
     - `!=` not equal to
@@ -136,34 +136,34 @@ _Age_of_10th_Grader = 15 # good
     - `>=` greater than or equal to
     - `<=` less than or equal to
 
-# Stage 3 (Functions and Modules)
-# 3.1 Modules
+## Stage 3 (Functions and Modules)
+### 3.1 Modules
 - Any set of functions made by a third party
 - Ex. turtle, opewakeworld, numpy, etc.
 - Commands vary for each module 
-# 3.2 Print
+### 3.2 Print
 - Call on it by typing `print()`
 - The print function writes text into the terminal
 - Can print any data type
 - Will print anything in between the `()`
-# 3.3 Input
+### 3.3 Input
 - Call on it by typing `input()`
 - Will turn anything typed into the terminal into a string
 - To use the data collected make it a variable.
 Ex. `x = input()`
 - Can access specific parts using index
 
-# 3.4 File Access (ignore not done)
+### 3.4 File Access (ignore not done)
 - 
-# Stage 4 (Loops and Statements)
-## 4.1 If Statements
+## Stage 4 (Loops and Statements)
+### 4.1 If Statements
 - If Statements - used to control the flow of a program based on a condition
     - `if` is used to check if a condition is true and execute a block of code if it is
     - `elif` is used to check if another condition is true if the previous condition was false
     - `else` is used to execute a block of code if all previous conditions were false
     - Can use comparison operators and boolean values in the condition of an if statement
 
-## 4.2 For Loops
+### 4.2 For Loops
 - For Loops - used to iterate over a sequence of items and execute a block of code for each item
     - `for` is used to define a for loop
     - `in` is used to specify the sequence of items to iterate over
@@ -188,7 +188,7 @@ Ex. `x = input()`
         - `reduce()` is a function from the functools module to apply a function cumulatively to the items in a sequence while iterating over it in a for loop
     - itertools module to create more complex iterators and generators while iterating over a sequence in a for loop
 
-## 4.3 While Loops
+### 4.3 While Loops
 - While Loops - used to execute a block of code repeatedly while a condition is true
     - `while` is used to define a while loop
     - Can use comparison operators and boolean values in the condition of a while loop 
@@ -202,8 +202,8 @@ Ex. `x = input()`
     - `function name` is a unique identifier for the function
     - parameters are values that are passed into a function when it is called
     - return statement is used to return a value from a function
-# Stage 5 (Errors)
-## 5.1 ErrorTypes
+## Stage 5 (Errors)
+### 5.1 ErrorTypes
 - Error Types - different types of errors that can occur during the execution of a program
     - `SyntaxError` occurs when there is a mistake in the syntax of the code
     - `NameError` occurs when a variable or function is not defined
@@ -228,7 +228,7 @@ Ex. `x = input()`
     - `FloatingPointError` occurs when a floating-point operation fails, such as division by zero or overflow
     - `OverflowError` occurs when a calculation exceeds the maximum limit for a numeric type
 
-## 5.2 Warning Types
+### 5.2 Warning Types
  - Warning Types - different types of warnings that can occur during the execution of a program   
     - `ImportWarning` occurs when a module or library is imported that may cause compatibility issues with other modules or libraries
     - `ResourceWarning` occurs when a resource, such as a file or network connection, is not properly closed or released
@@ -239,7 +239,7 @@ Ex. `x = input()`
     - `PendingDeprecationWarning` occurs when a feature or function is marked for deprecation and may be removed in a future version of Python
     - `DeprecationWarning` occurs when a feature or function is deprecated and may be removed in a future version of Python
 
-## 5.3 Error handling
+### 5.3 Error handling
 - Error handling - used to handle errors that may occur during the execution of a program
     - `try` is used to define a block of code that may raise an error
     - `except` is used to define a block of code that will be executed if an error occurs in the try block
