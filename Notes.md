@@ -131,10 +131,10 @@ _Age_of_10th_Grader = 15 # good
 - Comparison Operators - used to compare two values and return a boolean value (True or False)
     - `==` equal to
     - `!=` not equal to
-    -`>` greater than
-    -`<` less than
-    -`>=` greater than or equal to
-    -`<=` less than or equal to
+    - `>` greater than
+    - `<` less than
+    - `>=` greater than or equal to
+    - `<=` less than or equal to
 
 # Stage 3 (Functions and Modules)
 # 3.1 Print
