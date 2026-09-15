@@ -137,17 +137,25 @@ _Age_of_10th_Grader = 15 # good
     - `<=` less than or equal to
 
 # Stage 3 (Functions and Modules)
-# 3.1 Print
+# 3.1 Modules
+- Any set of functions made by a third party
+- Ex. turtle, opewakeworld, numpy, etc.
+- Commands vary for each module 
+# 3.2 Print
 - Call on it by typing `print()`
 - The print function writes text into the terminal
 - Can print any data type
 - Will print anything in between the `()`
-# 3.2 Input
+# 3.3 Input
 - Call on it by typing `input()`
 - Will turn anything typed into the terminal into a string
 - To use the data collected make it a variable.
-Ex. `x = input()` 
-# Stage 4 (Loops and Statements
+Ex. `x = input()`
+- Can access specific parts using index
+
+# 3.4 File Access (ignore not done)
+- 
+# Stage 4 (Loops and Statements)
 ## 4.1 If Statements
 - If Statements - used to control the flow of a program based on a condition
     - `if` is used to check if a condition is true and execute a block of code if it is
@@ -194,7 +202,8 @@ Ex. `x = input()`
     - `function name` is a unique identifier for the function
     - parameters are values that are passed into a function when it is called
     - return statement is used to return a value from a function
-## 1.5 Error/Warning Types
+# Stage 5 (Errors)
+## 5.1 ErrorTypes
 - Error Types - different types of errors that can occur during the execution of a program
     - `SyntaxError` occurs when there is a mistake in the syntax of the code
     - `NameError` occurs when a variable or function is not defined
@@ -218,7 +227,8 @@ Ex. `x = input()`
     - `RecursionError` occurs when a function calls itself too many times and exceeds the maximum recursion depth
     - `FloatingPointError` occurs when a floating-point operation fails, such as division by zero or overflow
     - `OverflowError` occurs when a calculation exceeds the maximum limit for a numeric type
-    
+
+## 5.2 Warning Types
  - Warning Types - different types of warnings that can occur during the execution of a program   
     - `ImportWarning` occurs when a module or library is imported that may cause compatibility issues with other modules or libraries
     - `ResourceWarning` occurs when a resource, such as a file or network connection, is not properly closed or released
@@ -229,7 +239,7 @@ Ex. `x = input()`
     - `PendingDeprecationWarning` occurs when a feature or function is marked for deprecation and may be removed in a future version of Python
     - `DeprecationWarning` occurs when a feature or function is deprecated and may be removed in a future version of Python
 
-## 1.6 Error handling
+## 5.3 Error handling
 - Error handling - used to handle errors that may occur during the execution of a program
     - `try` is used to define a block of code that may raise an error
     - `except` is used to define a block of code that will be executed if an error occurs in the try block
