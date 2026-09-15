@@ -41,7 +41,7 @@ _Age_of_10th_Grader = 15 # good
 
 /1 c * = 14 #bad
 ```
-- String - a sequence of characters enclosed in quotes
+- String - A sequence of characters enclosed in quotes
   - `””`used to define a string
   - `’’` used to define a string"
   - Index starts at 0 and can be used to access specific characters in a string
@@ -59,7 +59,7 @@ _Age_of_10th_Grader = 15 # good
     - `{}` is used as a placeholder for a value to be inserted into the string
     - Use f-strings (formatted string literals) to insert values into a string using curly braces and the variable name
 
-- List - creates a list of items
+- List - Creates a list of items
   - Can contain items of different data types
   - `[]` is used to define a list
   - Items in a list are ordered and can be accessed using their index
@@ -77,7 +77,7 @@ _Age_of_10th_Grader = 15 # good
     - `.sort()` is a method that sorts the items in a list in ascending order
     - `.reverse()` is a method that reverses the order of the items in a list
 
-- Dictionaries - a collection of key-value pairs
+- Dictionaries - A collection of key-value pairs
   - `{}` is used to define a dictionary
   - Key - a unique identifier for a value in the dictionary
   - Value - the data associated with a key in the dictionary
@@ -110,6 +110,7 @@ _Age_of_10th_Grader = 15 # good
   - ”T” in `True` and ”F” in `False` must be capitalized, otherwise it will return an error
   - `none` is a special value that represents the absence of a value or a null value
 
+## 1.3 Operators
 - Mathematical Operators - used to perform mathematical operations on numbers
     - `+` used to add 
     - `-` used to subtract
@@ -126,7 +127,7 @@ _Age_of_10th_Grader = 15 # good
     -`<` less than
     -`>=` greater than or equal to
     -`<=` less than or equal to
-
+## 1.4 Loops and Statements
 - If Statements - used to control the flow of a program based on a condition
     - `if` is used to check if a condition is true and execute a block of code if it is
     - `elif` is used to check if another condition is true if the previous condition was false
@@ -170,41 +171,42 @@ _Age_of_10th_Grader = 15 # good
     - `function name` is a unique identifier for the function
     - parameters are values that are passed into a function when it is called
     - return statement is used to return a value from a function
-
+## 1.5 Error/Warning Types
 - Error Types - different types of errors that can occur during the execution of a program
-    - `SyntaxError` is occurs when there is a mistake in the syntax of the code
-    - `NameError` is occurs when a variable or function is not defined
-    - `TypeError` is occurs when an operation is performed on an object of an inappropriate type
-    - `ValueError` is occurs when a function receives an argument of the correct type but an inappropriate value
-    - `IndexError` is occurs when trying to access an index that is out of range for a sequence
-    - `KeyError` is occurs when trying to access a key that does not exist in a dictionary
-    - `AttributeError` is occurs when trying to access an attribute or method that does not exist for an object
-    - `ImportError` is occurs when a module or library cannot be imported
-    - `ZeroDivisionError` is occurs when trying to divide a number by zero
-    - `FileNotFoundError` is occurs when trying to open a file that does not exist
-    - `PermissionError` is occurs when trying to access a file or directory without the necessary permissions
-    - `OSError` is occurs when a system-related error occurs, such as a file or directory not being found or a permission error
-    - `ModuleNotFoundError` is occurs when a module cannot be found
-    - `IndentationError` is occurs when there is an error in the indentation of the code
-    - `TabError` is occurs when there is an error in the use of tabs and spaces for indentation in the code
+    - `SyntaxError` occurs when there is a mistake in the syntax of the code
+    - `NameError` occurs when a variable or function is not defined
+    - `TypeError` occurs when an operation is performed on an object of an inappropriate type
+    - `ValueError` occurs when a function receives an argument of the correct type but an inappropriate value
+    - `IndexError` occurs when trying to access an index that is out of range for a sequence
+    - `KeyError` occurs when trying to access a key that does not exist in a dictionary
+    - `AttributeError` occurs when trying to access an attribute or method that does not exist for an object
+    - `ImportError` occurs when a module or library cannot be imported
+    - `ZeroDivisionError` occurs when trying to divide a number by zero
+    - `FileNotFoundError` occurs when trying to open a file that does not exist
+    - `PermissionError` occurs when trying to access a file or directory without the necessary permissions
+    - `OSError` occurs when a system-related error occurs, such as a file or directory not being found or a permission error
+    - `ModuleNotFoundError` occurs when a module cannot be found
+    - `IndentationError` occurs when there is an error in the indentation of the code
+    - `TabError` occurs when there is an error in the use of tabs and spaces for indentation in the code
     - `StopIteration` occurs when a generator or iterator has no more items to return
     - `KeyboardInterrupt` occurs when the user interrupts the execution of a program by pressing Ctrl+C or another interrupt signal
     - `SystemExit` occurs when the sys.exit() function is called to exit a program
     - `MemoryError` occurs when a program runs out of memory
     - `RecursionError` occurs when a function calls itself too many times and exceeds the maximum recursion depth
-    - `FloatingPointError` is occurs when a floating-point operation fails, such as division by zero or overflow
-    - `OverflowError` is occurs when a calculation exceeds the maximum limit for a numeric type
+    - `FloatingPointError` occurs when a floating-point operation fails, such as division by zero or overflow
+    - `OverflowError` occurs when a calculation exceeds the maximum limit for a numeric type
     
  - Warning Types - different types of warnings that can occur during the execution of a program   
-    - `ImportWarning` is occurs when a module or library is imported that may cause compatibility issues with other modules or libraries
-    - `ResourceWarning` is occurs when a resource, such as a file or network connection, is not properly closed or released
-    - `RuntimeWarning` is occurs when a runtime issue is detected, such as a potential performance problem or a deprecated feature being used
-    - `SyntaxWarning` is occurs when there is a potential issue with the syntax of the code that may cause unexpected behavior
-    - `UserWarning` is occurs when a warning is issued to the user about a potential issue or problem with the code
-    - `FutureWarning` is occurs when a feature or function is used that may be removed or changed in a future version of Python
-    - `PendingDeprecationWarning` is occurs when a feature or function is marked for deprecation and may be removed in a future version of Python
-    - `DeprecationWarning` is occurs when a feature or function is deprecated and may be removed in a future version of Python
+    - `ImportWarning` occurs when a module or library is imported that may cause compatibility issues with other modules or libraries
+    - `ResourceWarning` occurs when a resource, such as a file or network connection, is not properly closed or released
+    - `RuntimeWarning` occurs when a runtime issue is detected, such as a potential performance problem or a deprecated feature being used
+    - `SyntaxWarning` occurs when there is a potential issue with the syntax of the code that may cause unexpected behavior
+    - `UserWarning` occurs when a warning is issued to the user about a potential issue or problem with the code
+    - `FutureWarning` occurs when a feature or function is used that may be removed or changed in a future version of Python
+    - `PendingDeprecationWarning` occurs when a feature or function is marked for deprecation and may be removed in a future version of Python
+    - `DeprecationWarning` occurs when a feature or function is deprecated and may be removed in a future version of Python
 
+## 1.6 Error handling
 - Error handling - used to handle errors that may occur during the execution of a program
     - `try` is used to define a block of code that may raise an error
     - `except` is used to define a block of code that will be executed if an error occurs in the try block
